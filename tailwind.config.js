@@ -7,10 +7,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        widescreen: { raw: "(min-aspect-ratio: 3/2)" },
+        tallscreen: { raw: "(max-aspect-ratio: 5/20)" },
+      },
+      keyframes: {
+        'open-menu': {
+          '0%': { transform: "scaleY(0)" },
+          '70%': { transform: "scaleY(1.2)" },
+          '100%': { transform: "scaleY(1)" },
+        },
+      },
+      animation: {
+        'open-menu': "open-menu 0.5s ease-in-out forwards",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
