@@ -32,7 +32,7 @@ export default function Home() {
         </article>
 
         <Image
-          src="/assets/icon/me.jpeg"
+          src="/assets/icon/me1.jpg"
           width={300}
           height={400}
           style={{ width: '50%' }}
