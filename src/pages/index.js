@@ -9,12 +9,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="max-w-4xl mx-auto">
+    <main className=" mx-auto flex flex-col items-center">
       <section 
         id="Home"
-        className="flex flex-col-reverse justify-center sm:flex-row px-8  items-center gap-8 mb-12 scroll-mt-40 h-screen -mt-10 md:-mt-12"
+        className="flex flex-col-reverse justify-center max-w-4xl sm:flex-row px-8  items-center gap-8 scroll-mt-40 h-screen"
       >
-        <article className="sm:w-5/8">
+        <article className="sm:w-5/8  ">
           <p
             className="text-xl sm:text-2xl font-bold text-slate-500"
           >
@@ -40,10 +40,12 @@ export default function Home() {
           className="rounded-full"
         />
       </section>
+      
+      
 
       <section
         id="About"
-        className="p-2 scroll-mt-20 flex flex-col items-center my-8 widescreen:section-min-height tallscreen:section-min-height"
+        className="p-2 scroll-mt-20 flex flex-col max-w-5xl items-center my-2 widescreen:section-min-height tallscreen:section-min-height"
       >
         <h2
           className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-14"
@@ -55,6 +57,7 @@ export default function Home() {
         </p>
 
         <h2
+          id="Projects"
           className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-8 "
         >
           My Project

@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 
 export default function Footer(){
     return(
-        <footer class="bg-cyan-500 text-white text-xl" id="Contact">
+        <footer class="bg-gradient-to-r from-cyan-500 via-blue-500 to-cyan-500 text-white text-xl" id="Contact">
             <section
             class="max-w-4xl mx-auto p-4 sm:flex-row sm:justify-between items-center"
             >
