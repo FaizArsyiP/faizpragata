@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer utilities{
-  .section-min-height {
-      min-height: calc(100vh - 68px)
+  .text-balance {
+    text-wrap: balance;
   }
 
   .toggle-btn {
@@ -36,9 +36,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+
+
 

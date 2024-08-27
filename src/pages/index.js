@@ -45,7 +45,7 @@ export default function Home() {
 
       <section
         id="About"
-        className="p-2 scroll-mt-20 flex flex-col max-w-5xl items-center my-2 widescreen:section-min-height tallscreen:section-min-height"
+        className="p-2 scroll-mt-20 flex flex-col max-w-5xl items-center my-2 "
       >
         <h2
           className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-14"
@@ -69,7 +69,6 @@ export default function Home() {
           </h1>
         </div>
       </section>
-
     </main>
   );
 }

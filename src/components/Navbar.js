@@ -21,6 +21,7 @@ export default function Navbar(){
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+    
     useEffect(() => {
         const hamburgerBtn = document.getElementById('hamburger-button');
         const mobileMenu = document.getElementById('mobile-menu');
