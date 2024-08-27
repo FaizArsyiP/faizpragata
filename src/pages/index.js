@@ -4,17 +4,26 @@ import Link from "next/link";
 import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { IoMdConstruct } from "react-icons/io";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    })
+  },[])
+
   return (
     <main className=" mx-auto flex flex-col items-center">
       <section 
         id="Home"
         className="flex flex-col-reverse justify-center max-w-4xl sm:flex-row px-8  items-center gap-8 scroll-mt-40 h-screen"
       >
-        <article className="sm:w-5/8  ">
+        <article className="sm:w-5/8" data-aos="fade-right">
           <p
             className="text-xl sm:text-2xl font-bold text-slate-500"
           >
@@ -38,6 +47,7 @@ export default function Home() {
           style={{ width: '50%' }}
           alt="Picture of the author"
           className="rounded-full"
+          data-aos="zoom-in" 
         />
       </section>
       
@@ -45,24 +55,24 @@ export default function Home() {
 
       <section
         id="About"
-        className="p-2 scroll-mt-20 flex flex-col max-w-5xl items-center my-2 "
+        className="p-2 scroll-mt-20 flex flex-col max-w-5xl items-center my-2 widescreen:section-min-height tallscreen:section-min-height" data-aos="fade-up" 
       >
         <h2
-          className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-14"
+          className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-14 " 
         >
           About Me
         </h2>
         <p className="text-justify font-bold text-xl sm:text-4xl mx-4 mb-24">
-          Hello! i&apos;m Faiz Arsyi Pragata, i&apos;m a 2<sup>nd</sup> year Information Engineering Student at Gadjah Mada University. I have a great interest in Web Development 
+          Hello! i&apos;m Faiz Arsyi Pragata, i&apos;m a 2<sup>nd</sup> year Information Engineering Student at Gadjah Mada University. I have a great interest in Web Development. 
         </p>
-
+        
         <h2
           id="Projects"
-          className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-8 "
+          className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-8 scroll-mt-24 "
         >
           My Project
         </h2>
-        <div className="h-48 w-3/4 md:w-1/2 md:h-[350px] relative border-4 rounded-3xl border-dashed border-slate-400 flex items-center flex-col justify-center py-4 px-2 mt-6 mb-16 ">
+        <div className="h-48 w-3/4 md:w-1/2 md:h-[350px] relative border-4 rounded-3xl border-dashed border-slate-400 flex items-center flex-col justify-center py-4 px-2 mt-6 mb-14 ">
           <IoMdConstruct size={60} className="text-slate-400" />
           <h1 className=" text-slate-400 text-xl sm:text-3xl m-2 text-center">
             More Project Coming Soon
