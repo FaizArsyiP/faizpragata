@@ -55,24 +55,30 @@ export default function Home() {
 
       <section
         id="About"
-        className="p-2 scroll-mt-20 flex flex-col max-w-5xl items-center my-2 widescreen:section-min-height tallscreen:section-min-height" data-aos="fade-up" 
+        className="p-2 scroll-mt-20 flex flex-col max-w-5xl items-center  my-2 widescreen:section-min-height tallscreen:section-min-height" data-aos="fade-up" 
       >
         <h2
           className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-14 " 
         >
           About Me
         </h2>
-        <p className="text-justify font-bold text-xl sm:text-4xl mx-4 mb-24">
+        <p className="text-justify font-bold text-xl md:text-4xl mx-4 mb-12">
           Hello! i&apos;m Faiz Arsyi Pragata, i&apos;m a 2<sup>nd</sup> year Information Engineering Student at Gadjah Mada University. I have a great interest in Web Development. 
         </p>
         
+      </section>
+
+      <section
+        id="Projects"
+        className="flex flex-col justify-center max-w-5xl items-center scroll-mt-20 my-2 widescreen:section-min-height tallscreen:section-min-height"
+        data-aos="fade-up"
+      >
         <h2
-          id="Projects"
-          className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-8 scroll-mt-24 "
+          className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-8 "
         >
           My Project
         </h2>
-        <div className="h-48 w-3/4 md:w-1/2 md:h-[350px] relative border-4 rounded-3xl border-dashed border-slate-400 flex items-center flex-col justify-center py-4 px-2 mt-6 mb-14 ">
+        <div className="h-48 w-full md:h-[350px] border-4 rounded-3xl border-dashed border-slate-400 flex items-center flex-col justify-center py-4 px-2 mt-6 mb-14 ">
           <IoMdConstruct size={60} className="text-slate-400" />
           <h1 className=" text-slate-400 text-xl sm:text-3xl m-2 text-center">
             More Project Coming Soon

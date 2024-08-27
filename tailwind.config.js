@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       screens:{
         widescreen: { raw: "(min-aspect-ratio: 3/2)" },
-        tallscreen: { raw: "(max-aspect-ratio: 5/20)" },
+        tallscreen: { raw: "(max-aspect-ratio: 1/2)" },
       },
       keyframes: {
         'open-menu': {
