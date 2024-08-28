@@ -51,11 +51,9 @@ export default function Home() {
         />
       </section>
       
-      
-
       <section
         id="About"
-        className="p-2 scroll-mt-20 flex flex-col max-w-5xl items-center  my-2 widescreen:section-min-height tallscreen:section-min-height" data-aos="fade-up" 
+        className="md:pt-2 p-2 pt-7 scroll-mt-20 flex flex-col max-w-5xl items-center  my-2 widescreen:section-min-height tallscreen:section-min-height" data-aos="fade-up" data-aos-offset="100" data-aos-anchor-placement="top-bottom"
       >
         <h2
           className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-14 " 
@@ -71,7 +69,7 @@ export default function Home() {
       <section
         id="Projects"
         className="flex flex-col justify-center max-w-5xl items-center scroll-mt-20 my-2 widescreen:section-min-height tallscreen:section-min-height"
-        data-aos="fade-up"
+        data-aos="fade-up" data-aos-offset="150"
       >
         <h2
           className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-8 "
