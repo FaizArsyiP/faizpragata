@@ -7,7 +7,6 @@ import { IoMdConstruct } from "react-icons/io";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Project from "@/components/project";
 import 'devicon/devicon.min.css';
 
 const inter = Inter({ subsets: ["latin"] });
