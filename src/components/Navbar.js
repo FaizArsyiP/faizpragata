@@ -55,10 +55,10 @@ export default function Navbar(){
                         className="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:-translate-x-4 before:-translate-y-3 before:transition-all before:duration-500 after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:-translate-x-4 after:translate-y-3 after:transition-all after:duration-500"
                         ></div>
                     </button>
-                    <nav className="md:block hidden space-x-6 cursor-pointer mx-4" aria-label="main">
-                        <Link href="/" className="hover:text-cyan-700 text-2xl  m-2 font-bold">Home</Link>
-                        <Link href="#About" className="hover:text-cyan-700 text-2xl  m-2 font-bold">About </Link>
-                        <Link href="#Projects" className="hover:text-cyan-700 text-2xl  m-2 font-bold">Projects</Link>
+                    <nav className="md:block hidden space-x-6 cursor-pointer mx-4 " aria-label="main">
+                        <Link href="/" className="hover:text-cyan-700 text-2xl m-2 font-bold transition-all">Home</Link>
+                        <Link href="#About" className="hover:text-cyan-700 text-2xl m-2 font-bold transition-all">About </Link>
+                        <Link href="#Projects" className="hover:text-cyan-700 text-2xl m-2 font-bold transition-all">Projects</Link>
                     </nav>
                 </div>       
             </section>

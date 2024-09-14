@@ -7,14 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens:{
-        widescreen: { raw: "(min-aspect-ratio: 3/2)" },
-        tallscreen: { raw: "(max-aspect-ratio: 1/3)" },
-      },
       keyframes: {
         'open-menu': {
           '0%': { transform: "scaleY(0)" },
-          '70%': { transform: "scaleY(1.2)" },
+          '60%': { transform: "scaleY(1.3)" },
           '100%': { transform: "scaleY(1)" },
         },
       },
