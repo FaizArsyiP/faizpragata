@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Layout({children}){
     return(
@@ -14,6 +14,7 @@ export default function Layout({children}){
             <div className="bg-gray-950">
                 <Navbar/>
                     {children}
+                    <Analytics/>
                 <Footer/>
             </div>
         </>
