@@ -21,7 +21,7 @@ export default function Navbar(){
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    
+
     useEffect(() => {
         const hamburgerBtn = document.getElementById('hamburger-button');
         const mobileMenu = document.getElementById('mobile-menu');
@@ -40,16 +40,16 @@ export default function Navbar(){
             mobileMenu.removeEventListener('click', toggleMenu);
         };
     }, []);
-    
+
     return(
-        <header className={`fixed w-full top-0 z-10 h-[68px] transition-all duration-300 ${
-            isScrolled ? 'bg-gradient-to-r from-cyan-500 to-blue-500 text-white' : 'bg-transparent text-white'
+        <header className={`fixed w-full top-0 z-10  p-4 transition-color duration-500 ease-in-out text-white ${
+            isScrolled ? 'bg-gradient-to-r from-cyan-500 to-blue-500 h-[60px]' : 'bg-transparent  h-[90px]'
         }`}>
             <section className="w-full mx-auto p-4 flex relative items-center h-full">
                 <div className="absolute right-5">
                     <button
                         id="hamburger-button"
-                        class="text-3xl md:hidden cursor-pointer relative w-8 h-8"
+                        class="text-3l md:hidden cursor-pointer relative w-8 h-8"
                     >
                         <div
                         className="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:-translate-x-4 before:-translate-y-3 before:transition-all before:duration-500 after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:-translate-x-4 after:translate-y-3 after:transition-all after:duration-500"

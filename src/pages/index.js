@@ -45,7 +45,7 @@ export default function Home() {
           src="/assets/icon/me1.jpg"
           width={400}
           height={400}
-          style={{ width: '40%' }}
+          style={{ width: '42%' }}
           alt="Faiz Arsyi Pragata"
           className="rounded-full"
           data-aos="fade-left"
@@ -56,7 +56,7 @@ export default function Home() {
       
       <section
         id="About"
-        className="flex flex-col scroll-mt-20  max-w-4xl items-center  my-4 min-h-screen" data-aos="fade-up" data-aos-offset="100" data-aos-anchor-placement="top-bottom"
+        className="flex flex-col scroll-mt-10  max-w-4xl items-center  my-4 min-h-screen fit-content" 
       >
         <h2
           className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-14 " 
@@ -89,7 +89,7 @@ export default function Home() {
 
       <section
             id="Projects"
-            className="flex flex-col scroll-mt-20  max-w-4xl items-center  my-4 min-h-screen" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            className="flex flex-col scroll-mt-20  max-w-4xl items-center  my-4 min-h-screen"
         >
             <h2
                 className="text-cyan-400 text-4xl font-bold text-center sm:text-6xl m-4 sm:m-14 " 
