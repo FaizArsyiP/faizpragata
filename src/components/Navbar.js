@@ -64,7 +64,7 @@ export default function Navbar(){
             </section>
             <section
                 id="mobile-menu"
-                className="absolute bg-gray-950 w-full h-[1/2vh] text-xl flex-col justify-center origin-top animate-open-menu hidden"
+                className="absolute bg-gray-950 w-full h-[1/2vh] text-xl flex-col justify-center origin-top animate-open-menu hidden top-[60px]"
             >
                 <nav
                     className="flex flex-col h-full items-center p-4"
