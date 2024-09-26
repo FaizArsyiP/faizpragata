@@ -37,6 +37,11 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.navbar-bg {
+  transition: background-color 0.5s ease, opacity 0.5s ease, height 0.5s ease; 
+}
+
+
 
 
 
