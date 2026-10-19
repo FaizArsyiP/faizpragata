@@ -11,7 +11,7 @@ export default function Footer(){
                 <div className="flex space-x-4 my-4 flex-row justify-center">
                     <Link href="https://www.instagram.com/faiz.pragata/" target="blank"><FaInstagram size={35} /></Link>
                     <Link href="https://github.com/FaizArsyiP" target="blank"><FaGithub size={35} /></Link>
-                    <Link href="https://www.linkedin.com/in/faiz-arsyi-pragata-561363323/" target="blank"><FaLinkedin size={35} /></Link>
+                    <Link href="https://www.linkedin.com/in/FaizArsyiPragata/" target="blank"><FaLinkedin size={35} /></Link>
                     <Link href="mailto:faizpragata@gmail.com" target="blank"><MdEmail size={35} /></Link>
                 </div>    
             </section>
