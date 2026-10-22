@@ -1,15 +1,11 @@
-// Dummy placeholder data — replace with your actual education history.
+// Only the fact stated in the CV (currently in semester 5) is included here.
+// Add your admission year, prior school, etc. if you want a fuller timeline.
 export const education = [
-  {
-    period: "2023 — Present",
-    institution: "Universitas Gadjah Mada",
-    degree: "S1 Teknik Elektro dan Teknologi Informasi",
-    description: "Dummy description. Replace with your actual program details, focus area, or achievements.",
-  },
-  {
-    period: "2020 — 2023",
-    institution: "Dummy High School Name",
-    degree: "Dummy major/track (e.g. Sains/MIPA)",
-    description: "Dummy description. Replace with your actual school details or achievements.",
-  },
+    {
+        period: "Semester 7 — Ongoing",
+        institution: "Universitas Gadjah Mada",
+        degree: "S1 Teknologi Informasi",
+        description:
+            "Focused on web development, with hands-on experience building applications across the front-end and back-end.",
+    },
 ];

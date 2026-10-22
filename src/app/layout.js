@@ -13,7 +13,7 @@ export const metadata = {
   openGraph: {
     title: "Faiz Arsyi Pragata",
     description: "Portfolio website created using Next.js and TailwindCSS",
-    images: ["/assets/icon/me1.jpg"],
+    images: ["/assets/image/faiz1.png"],
   },
 };
 
